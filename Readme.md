@@ -7,3 +7,9 @@ Damit neovim alle Einstellungen übernimmt sollte am besten ":checkhealth" ausge
 Dort wird sich unter anderem definitiv die "live-grep"-Extension von Telescope melden, weil das CLI-Tool 
 "ripgrep" installiert sein muss. Bei Debian-basierten Distros also einfach "sudo apt install ripgrep",
 dann sollte alles funktionieren. 
+
+# Abhängigkeiten:
+Damit keine Fehlermeldungen erscheinen, müssen die folgenden Pakete installiert sein:
+ - NPM (für Mason und die automatisch installierbaren LSPs)
+ - luarocks (keine Ahnung glaube für Treesitter)
+ - ripgrep (für Telescope)
