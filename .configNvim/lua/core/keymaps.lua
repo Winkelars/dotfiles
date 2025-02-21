@@ -43,10 +43,8 @@ keymap.set("n", "<leader>cp", "[c") -- previous diff hunk
 -- Vim-maximizer
 -- keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle maximize tab
 
--- -- Nvim-tree
--- keymap.set("n", "<leader>ee", ":NvimTreeToggle<CR>") -- toggle file explorer
--- keymap.set("n", "<leader>er", ":NvimTreeFocus<CR>") -- toggle focus to file explorer
--- keymap.set("n", "<leader>ef", ":NvimTreeFindFile<CR>") -- find file in file explorer
+-- Nvim-tree
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
 
 -- Telescope
 keymap.set('n', '<leader>ff', require('telescope.builtin').find_files, {})
@@ -116,9 +114,7 @@ keymap.set("n", '<leader>dh', '<cmd>Telescope dap commands<cr>')
 keymap.set("n", '<leader>de', function() require('telescope.builtin').diagnostics({default_text=":E:"}) end)
 
 -- 
--- persönlich ergänzt
+-- dange theprimeagen 
 --
--- führt mit Python die aktuelle Datei aus
-keymap.set("n","<leader>p", "<cmd>:w<CR>:!python3 %<CR>")
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")

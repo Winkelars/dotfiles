@@ -60,3 +60,4 @@ opt.foldexpr = "nvim_treesitter#foldexpr()" -- Utilize Treesitter folds
 opt.scrolloff = 8
 opt.undofile = true
 opt.undodir = "/home/l/.config/nvim/undodir"
+opt.hlsearch = false
