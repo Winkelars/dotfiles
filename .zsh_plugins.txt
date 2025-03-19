@@ -1,0 +1,24 @@
+jeffreytse/zsh-vi-mode #Bis jetzt hab ich nix von vi mode bemerkt
+rupa/z #Kennen & Lieben wir
+
+getantidote/use-omz #Kennen & Lieben wir
+ohmyzsh/ohmyzsh path:lib #Weiß nicht was das bringt
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages #Actually sehr nützlich
+ohmyzsh/ohmyzsh path:plugins/magic-enter #Weiß nicht was das bringt
+ohmyzsh/ohmyzsh path:plugins/fzf #Klingt nützlich aber weiß nicht was das bringt
+
+belak/zsh-utils path:editor #Macht, dass AltGr und Strg usw. nicht als Chars interpretiert werden und ZSH sich weird anfühlt
+belak/zsh-utils path:history #Unter anderem(?) macht das den Befehl 'history-stat' verfügbar, was ein cooler Befehl ist
+belak/zsh-utils path:prompt #Weiß nicht was das bringt
+belak/zsh-utils path:utility #Weiß nicht was das bringt
+
+sindresorhus/pure     kind:fpath #Ist ein eher langeweiliges Theme
+romkatv/powerlevel10k kind:fpath #Ist ein sehr cooles Theme, das dich beim ersten Start nach Präferenzen fragt und diese lokal speichert. Muss über .zshrc nochmal explizit aufgerufen werden
+
+mattmc3/zfunctions #Keine Ahnung
+zsh-users/zsh-autosuggestions #Kennen % Lieben wir
+zdharma-continuum/fast-syntax-highlighting kind:defer #Ist ganz nett aber könnte verzichten tbh
+zsh-users/zsh-history-substring-search #Glaube das ist nice, bin mir nicht sicher ob ich es vermissen würde
+
+
+Skylor-Tang/auto-venv # Sehr cool, macht genau das wohnach es klingt
