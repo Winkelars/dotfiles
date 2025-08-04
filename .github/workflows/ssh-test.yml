@@ -2,7 +2,7 @@ name: Per SSH im VPS einloggen und eine Datei erstellen
 run-name: ${{ github.actor }} testet stuff
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   deploy:
